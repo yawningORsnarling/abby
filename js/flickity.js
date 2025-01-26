@@ -82,3 +82,26 @@ var flkty_rc2 = new Flickity( rc2, {
     wrapAround: false,
     pageDots: false,
 });
+
+/* Theatre - More Shows */
+var tms1 = document.querySelector('.theatre-more-shows-carousel-1');
+var flkty_tms1 = new Flickity( tms1, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
+
+var tms2 = document.querySelector('.theatre-more-shows-carousel-2');
+var flkty_tms2 = new Flickity( tms2, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
