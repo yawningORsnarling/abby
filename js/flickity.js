@@ -105,3 +105,80 @@ var flkty_tms2 = new Flickity( tms2, {
     wrapAround: true,
     pageDots: false
 });
+
+var tms3 = document.querySelector('.theatre-more-shows-carousel-3');
+var flkty_tms3 = new Flickity( tms3, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
+
+var tms4 = document.querySelector('.theatre-more-shows-carousel-4');
+var flkty_tms4 = new Flickity( tms4, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
+
+var tms5 = document.querySelector('.theatre-more-shows-carousel-5');
+var flkty_tms5 = new Flickity( tms5, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
+
+var tms6 = document.querySelector('.theatre-more-shows-carousel-6');
+var flkty_tms6 = new Flickity( tms6, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
+
+var tms7 = document.querySelector('.theatre-more-shows-carousel-7');
+var flkty_tms7 = new Flickity( tms7, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
+
+var tms8 = document.querySelector('.theatre-more-shows-carousel-8');
+var flkty_tms8 = new Flickity( tms8, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});
+
+var tms9 = document.querySelector('.theatre-more-shows-carousel-9');
+var flkty_tms9 = new Flickity( tms9, {
+    lazyLoad: true,
+    imagesLoaded: true,
+    contain: true,
+    autoPlay: true,
+    autoPlay: 4000,
+    wrapAround: true,
+    pageDots: false
+});

@@ -295,3 +295,7 @@ body {
     color: white;
     font-style: italic;
 }
+
+.more_shows_quote {
+    font-size: 0.8em;
+}
