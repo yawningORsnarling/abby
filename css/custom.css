@@ -42,7 +42,7 @@
     font-family: 'AlegreyaSansSC-Medium';
 }
 
-/* extra small devices (phones, 600px and down) 
+/* extra small devices (phones, 600px and down)
  *   - pixel 5a 413px break
  */
 @media only screen and (max-width: 600px) {
@@ -56,8 +56,8 @@
     left: 50px;
     filter: opacity(75%);
   }
-  .abby_church p::first-letter {                                               
-      font-size: 70px;                                                        
+  .abby_church p::first-letter {
+      font-size: 70px;
   }
 }
 
@@ -73,8 +73,8 @@
     left: 50px;
     filter: opacity(75%);
   }
-  .abby_church p::first-letter {                                               
-      font-size: 70px;                                                        
+  .abby_church p::first-letter {
+      font-size: 70px;
   }
 }
 
@@ -90,8 +90,8 @@
     left: 120px;
     filter: opacity(75%);
   }
-  .abby_church p::first-letter {                                               
-      font-size: 90px;                                                        
+  .abby_church p::first-letter {
+      font-size: 90px;
   }
 }
 
@@ -107,8 +107,8 @@
     left: 120px;
     filter: opacity(75%);
   }
-  .abby_church p::first-letter {                                               
-      font-size: 90px;                                                        
+  .abby_church p::first-letter {
+      font-size: 90px;
   }
 }
 
@@ -137,8 +137,8 @@
       top: 600px;
       left: 340px;
   }
-  .abby_church p::first-letter {                                               
-      font-size: 110px;                                                        
+  .abby_church p::first-letter {
+      font-size: 110px;
   }
 }
 @media only screen and (min-width: 1800px) {
@@ -151,8 +151,8 @@
       top: 700px;
       left: 450px;
   }
-  .abby_church p::first-letter {                                               
-      font-size: 110px;                                                        
+  .abby_church p::first-letter {
+      font-size: 110px;
   }
 }
 
@@ -298,4 +298,30 @@ body {
 
 .more_shows_quote {
     font-size: 0.8em;
+}
+
+/* iOS Safari detection (pragmatic) - parallax fix */
+@supports (-webkit-touch-callout: none) {
+  /* don’t use a custom scroll container on iOS */
+  #overflow {
+    height: auto;
+    overflow: visible;
+    -webkit-overflow-scrolling: auto;
+  }
+
+  /* kill the perspective/parallax transform */
+  .overflow-parallax #overflow,
+  .sticky-parallax #container {
+    perspective: none;
+  }
+
+  #parallax {
+    transform: none !important;
+    transform-style: flat;
+    position: relative; /* or sticky off */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100svh; /* better than fixed px heights on phones */
+  }
 }
